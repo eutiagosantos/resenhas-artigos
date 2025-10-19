@@ -1,5 +1,3 @@
-Claro, aqui está uma versão mais elaborada, mantendo o mesmo tom.
-
 Li o artigo sobre Arquitetura Hexagonal e a sacada principal para mim foi a ideia de "Portas e Adaptadores". É um jeito bem diferente e poderoso de pensar em como organizar o código.
 
 Basicamente, a proposta é criar uma separação muito clara entre o núcleo da sua aplicação, onde fica toda a lógica de negócio, e o "mundo exterior". Esse mundo exterior é qualquer coisa que interage com seu sistema, como uma interface de usuário, um banco de dados, uma API de terceiro ou até mesmo os scripts de teste. A regra de ouro é que o núcleo da aplicação não pode saber nada sobre a tecnologia específica que está do lado de fora.
